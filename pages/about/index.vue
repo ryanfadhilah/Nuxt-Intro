@@ -1,5 +1,5 @@
 <script setup>
-const { hello } = useFunction();
+const { hello } = useComposable();
 const route = useRoute();
 hello(`${route.name}`);
 </script>
